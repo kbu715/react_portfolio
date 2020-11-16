@@ -31,7 +31,7 @@ const SideBar = () => {
             animate='visible'
         >
             <img src={max} alt="avatar" className="rounded-circle image_custom" />
-            <h3 className='name'><span>박</span> 진우</h3>
+            <h3 className='name'><span>박</span> 진우 TEST</h3>
             <div className="title bg-gray side_item">FrontEnd Developer</div>
 
             {/* 이력서 다운로드 */}
