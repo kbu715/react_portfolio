@@ -2,7 +2,7 @@
 
 
 body {
-    background-image: linear-gradient(to right bottom, #00F260, #0575E6);
+    background-image: linear-gradient(to right bottom, #e8f3ec, skyblue);
     font-family: sans-serif;
     height: 100vh;
     color: #354358;
@@ -13,7 +13,7 @@ body {
 }
 
 .projects_section::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to right bottom, #00F260, #0575E6);
+    background-image: linear-gradient(to right bottom, black, white);
 
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to right bottom, #00F260, #0575E6);
+    background-image: linear-gradient(to right bottom, #e8f3ec, skyblue);
 }
 
 ::-webkit-scrollbar-track {
@@ -94,7 +94,7 @@ body {
 }
 
 .name span {
-    color: #00F260;
+    color: black;
 }
 
 .bg-gray {
@@ -129,7 +129,7 @@ body {
 }
 
 .email {
-    background-image: linear-gradient(to right bottom, #00F260, #0575E6);
+    background-image: linear-gradient(to right bottom, skyblue, skyblue);
     border-radius: 30px;
     color: #fff;
     margin: 15px 25px 0;
@@ -147,7 +147,7 @@ body {
     font-size: 32px;
     font-weight: 700;
     color: #354358;
-    border-bottom: 4px solid #00F260;
+    border-bottom: 4px solid black;
 
 
 
@@ -305,7 +305,7 @@ a:hover {
 }
 
 .skill {
-    background-image: linear-gradient(to right, #00F260, #0575E6);
+    background-image: linear-gradient(to right, gray, white);
     border-radius: 20px;
     color: #fff;
     padding: 4px 14px;

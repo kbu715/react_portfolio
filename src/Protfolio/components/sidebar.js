@@ -1,17 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion'
-//import { Link } from 'react-router-dom'
-
-//sfc: stateless functional comp (shortcut)
 import tie from '../images/tie.svg'
 import instagram from '../images/instagram.svg'
 import facebook from '../images/facebook.svg'
-import max from '../images/max.jpg'
+import max from '../images/profile.png'
 import pin from '../images/pin.svg'
 import github from '../images/github.svg'
 import resume from '../resume.pdf'
+
+
 const SideBar = () => {
-    var sidebarVariants = {
+    let sidebarVariants = {
         initial: {
             x: '-10vw',
             opacity: 0
@@ -22,10 +21,7 @@ const SideBar = () => {
             transition: { delay: 0.3, duration: 0.5, type: 'spring' }
         }
     }
-    const handleSentEmail = () => window.open('mailto:code.sumax@gmail.com');
-    // const changeMode = () => {
-    //     document.querySelector('.')
-    // }
+    const handleSentEmail = () => window.open('mailto:jintakk6531@gmail.com');    
 
     return (
 
@@ -35,19 +31,25 @@ const SideBar = () => {
             animate='visible'
         >
             <img src={max} alt="avatar" className="rounded-circle image_custom" />
-            <h3 className='name'><span>Sumit</span> Dey</h3>
-            <div className="title bg-gray side_item">web developer</div>
-            <a href={resume} download="resume.pdf">
-                <div className="cv side_item"><img src={tie} alt="resume" className='icon_small' /> download resume</div></a>
-            <figure className='social_icons'>
+            <h3 className='name'><span>박</span> 진우</h3>
+            <div className="title bg-gray side_item">FrontEnd Developer</div>
+
+            {/* 이력서 다운로드 */}
+            {/* <a href={resume} download="resume.pdf">
+                <div className="cv side_item"><img src={tie} alt="resume" className='icon_small' /> download resume</div>
+            </a> */}
+
+            {/* SNS */}
+            {/* <figure className='social_icons'>
                 <a href="https://www.facebook.com/profile.php?id=100015327075818"><img src={facebook} alt="facebook" className='icon_small social_icon' /></a>
                 <a href="https://www.instagram.com/_sumax__/"><img src={instagram} alt="instagram" className='icon_small social_icon' /></a>
-            </figure>
+            </figure> */}
+
             <div className="contact">
-                <div className="location side_item"><img src={pin} alt="pin" className='icon_small  mr-1' />  Kolkata</div>
-                <a href="https://github.com/Dey-Sumit/"><div className="github side_item"> <img src={github} alt="git" className='icon_small social_icon mr-1' />  github </div></a>
-                <div className="email_id side_item"> code.sumax@gmail.com </div>
-                <div className="phone side_item"> 8514961767 / 8640960371 </div>
+                <div className="location side_item"><img src={pin} alt="pin" className='icon_small  mr-1' />  서울시 노원구</div>
+                <a href="https://github.com/jinwoo6531/"><div className="github side_item"> <img src={github} alt="git" className='icon_small social_icon mr-1' />  github </div></a>
+                <div className="email_id side_item"> jintakk6531@gmail.com </div>
+                <div className="phone side_item"> 010-3952-6531 </div>
 
             </div>
 

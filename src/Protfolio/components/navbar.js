@@ -6,7 +6,7 @@ const Navbar = () => {
 
     useEffect(() => {
         // heading error on page referesh
-        var header = localStorage.getItem('nav_header')
+        let header = localStorage.getItem('nav_header')
         header ? setHeading(header) : setHeading('About')
     }, [setHeading])
 
@@ -15,7 +15,7 @@ const Navbar = () => {
         setHeading(header)
     }
 
-    var navbarVariants = {
+    let navbarVariants = {
         initial: {
             y: '-30vh',
             opacity: 0

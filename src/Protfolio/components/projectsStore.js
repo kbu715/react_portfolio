@@ -5,7 +5,7 @@ import suprateem_portfolio from '../projects_images/suprateem_portfolio.JPG'
 import new_year from '../projects_images/new_year.JPG'
 import color_classification from '../projects_images/color_classification.JPG'
 
-var projects_store = [
+let projects_store = [
     {
         name: 'Tweeter Clone',
         image: tweetme,
