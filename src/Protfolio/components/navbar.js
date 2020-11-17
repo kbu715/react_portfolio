@@ -36,38 +36,39 @@ const Navbar = () => {
     >
       <div className="nav_heading">{heading}</div>
       <div className="navItems">
-        {heading !== 'About' && (
-          <Link to="/react_portfolio">
-            <div
-              className="about navItem"
-              onClick={() => handleSetHeading('About')}
-            >
-              About
-            </div>
-          </Link>
-        )}
-        {heading !== 'Projects' && (
-          <Link to="/react_portfolio/projects">
-            {' '}
-            <div
-              className="projects navItem"
-              onClick={() => handleSetHeading('Projects')}
-            >
-              Projects
-            </div>
-          </Link>
-        )}
-        {heading !== 'Resume' && (
-          <Link to="/react_portfolio/resume">
-            {' '}
-            <div
-              className="resume navItem"
-              onClick={() => handleSetHeading('Resume')}
-            >
-              Resume
-            </div>
-          </Link>
-        )}
+        {/* {heading !== 'About' && ( */}
+        <Link to="/">
+          <div
+            className="about navItem"
+            onClick={() => handleSetHeading('About')}
+          >
+            About
+          </div>
+        </Link>
+
+        {/* )} */}
+        {/* {heading !== 'Projects' && ( */}
+        <Link to="/projects">
+          {' '}
+          <div
+            className="projects navItem"
+            onClick={() => handleSetHeading('Projects')}
+          >
+            Projects
+          </div>
+        </Link>
+        {/* )} */}
+        {/* {heading !== 'Resume' && ( */}
+        <Link to="/resume">
+          {' '}
+          <div
+            className="resume navItem"
+            onClick={() => handleSetHeading('Resume')}
+          >
+            Resume
+          </div>
+        </Link>
+        {/* )} */}
       </div>
     </motion.div>
   );

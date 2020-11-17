@@ -22,13 +22,13 @@ const App = () => {
             <Navbar />
             <AnimatePresence exitBeforeEnter>
               <Switch location={location} key={location.key}>
-                <Route path="/react_portfolio/resume">
+                <Route path="/resume">
                   <Resume />
                 </Route>
-                <Route path="/react_portfolio/projects">
+                <Route path="/projects">
                   <Projects />
                 </Route>
-                <Route path="/react_portfolio" exact component={About} />
+                <Route path="/" exact component={About} />
               </Switch>
             </AnimatePresence>
           </div>
