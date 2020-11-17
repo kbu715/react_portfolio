@@ -1,4 +1,3 @@
-import python from '../images/python.svg';
 import js from '../images/js.svg';
 import react from '../images/react.svg';
 

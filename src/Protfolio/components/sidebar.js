@@ -1,12 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import tie from '../images/tie.svg';
-import instagram from '../images/instagram.svg';
-import facebook from '../images/facebook.svg';
 import max from '../images/profile.png';
 import pin from '../images/pin.svg';
 import github from '../images/github.svg';
-import resume from '../resume.pdf';
 
 const SideBar = () => {
   let sidebarVariants = {
