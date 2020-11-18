@@ -62,9 +62,6 @@ const Resume = () => {
             </div>
             <div className="resume_card_year">비트교육센터 (2020)</div>
             <p className="resume_card_description">
-              I am currently persuing B.tech in Computer Science Engineering
-              from Academy of Technology
-              <p>CGPA (till 5th sem) : 7.5 </p>
             </p>
           </div>
         </div>

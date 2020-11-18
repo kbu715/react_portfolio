@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import max from '../images/profile.png';
+import max from '../images/uzoo.jpg';
 import pin from '../images/pin.svg';
 import github from '../images/github.svg';
 
@@ -16,7 +16,7 @@ const SideBar = () => {
       transition: { delay: 0.3, duration: 0.5, type: 'spring' },
     },
   };
-  const handleSentEmail = () => window.open('mailto:jintakk6531@gmail.com');
+  const handleSentEmail = () => window.open('mailto:kbu715@naver.com');
 
   return (
     <motion.div
@@ -26,7 +26,7 @@ const SideBar = () => {
       animate="visible"
     >
       <img src={max} alt="avatar" className="rounded-circle image_custom" />
-      <h3 className="name">박진우</h3>
+      <h3 className="name">강바울</h3>
       <div className="title bg-gray side_item">FrontEnd Developer</div>
 
       {/* 이력서 다운로드 */}
@@ -42,9 +42,9 @@ const SideBar = () => {
 
       <div className="contact">
         <div className="location side_item">
-          <img src={pin} alt="pin" className="icon_small  mr-1" /> 서울시 노원구
+          <img src={pin} alt="pin" className="icon_small  mr-1" /> 서울시 관악구
         </div>
-        <a href="https://github.com/jinwoo6531/">
+        <a href="https://github.com/kbu715/">
           <div className="github side_item">
             {' '}
             <img
@@ -55,8 +55,8 @@ const SideBar = () => {
             github{' '}
           </div>
         </a>
-        <div className="email_id side_item"> jintakk6531@gmail.com </div>
-        <div className="phone side_item"> 010-3952-6531 </div>
+        <div className="email_id side_item"> kbu715@gmail.com </div>
+        <div className="phone side_item"> 010-8901-7060 </div>
       </div>
 
       <div className="email side_item mt-6" onClick={handleSentEmail}>

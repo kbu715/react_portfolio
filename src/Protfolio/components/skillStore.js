@@ -33,7 +33,7 @@ let skill_language_store = [
     logo: '',
   },
   {
-    name: 'SQL',
+    name: 'NoSQL',
     level: 'verygood',
     logo: '',
   },

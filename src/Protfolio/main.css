@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap'); */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
 
 body {
-    background-image: linear-gradient(to right bottom, #e8f3ec, skyblue);
-    font-family: sans-serif;
+    background-image: linear-gradient(to right bottom, #e8f3ec, e8f3ec);
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
     height: 100vh;
     color: #354358;
 }
@@ -89,7 +90,7 @@ body {
 
 .name {
     margin: 20px 0;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
 
 }
 
@@ -137,8 +138,8 @@ body {
 }
 
 .email:hover {
-    background-image: linear-gradient(to right bottom, #0575E6, #00F260);
-    transition: 1s linear;
+    background: #0575E6;
+    /* transition: 1s linear; */
 }
 
 
@@ -205,9 +206,6 @@ body {
 .card_body {
     margin-left: 15px;
 }
-
-
-.card_title {}
 
 .card_content {
     color: #6E7E91;
@@ -305,7 +303,7 @@ a:hover {
 }
 
 .skill {
-    background-image: linear-gradient(to right, gray, white);
+    background: skyblue;
     border-radius: 20px;
     color: #fff;
     padding: 4px 14px;

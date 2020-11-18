@@ -7,7 +7,7 @@ let projects_store = [
   {
     name: 'Movie Reservation App',
     image: movie,
-    url: 'https://github.com/jinwoo6531/nomfilx',
+    url: 'https://github.com/kbu715/movie_app_with_docker',
     catagory: ['react.js'],
   },
   {
