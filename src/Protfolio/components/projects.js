@@ -25,12 +25,12 @@ const Projects = () => {
       },
     },
   };
-  const handleFilterCatagory = (name) => {
-    const new_array = projects_store.filter((project, i) =>
-      project.catagory.includes(name)
-    );
-    setProjects(new_array);
-  };
+  // const handleFilterCatagory = (name) => {
+  //   const new_array = projects_store.filter((project, i) =>
+  //     project.catagory.includes(name)
+  //   );
+  //   setProjects(new_array);
+  // };
   return (
     <motion.div
       className="container projects_section"
@@ -46,7 +46,7 @@ const Projects = () => {
         >
           All
         </div>
-        <div
+        {/* <div
           className="project_header_child"
           onClick={() => handleFilterCatagory('typescript')}
         >
@@ -69,7 +69,7 @@ const Projects = () => {
           onClick={() => handleFilterCatagory('vanila')}
         >
           Vanila js
-        </div>
+        </div> */}
       </div>
       <div className="row">
         {projects.map((project, i) => (

@@ -69,28 +69,7 @@ const About = () => {
                 ]}
               />
             </div>
-            {/* <div className="col-sm-12 col-lg-6">
-              <Card
-                icon={api}
-                title="API Development"
-                body={[
-                  'develop robust REST API using ',
-                  <strong> django-rest-api </strong>,
-                ]}
-              />
-            </div> */}
-            {/* <div className="col-sm-12 col-lg-6">
-              <Card
-                icon={algo}
-                title="Algo and DS"
-                body={[
-                  'a daily problem solver in ',
-                  <strong>HackerRank</strong>,
-                  ' and ',
-                  <strong>Leetcode</strong>,
-                ]}
-              />
-            </div> */}
+
             <div className="col-sm-12 col-lg-6">
               <Card
                 icon={ux}

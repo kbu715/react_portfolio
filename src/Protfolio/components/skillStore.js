@@ -28,12 +28,12 @@ let skill_language_store = [
     logo: '',
   },
   {
-    name: 'bootstrap & Material UI',
+    name: 'bootstrap & Material UI & Ant Design',
     level: 'verygood',
     logo: '',
   },
   {
-    name: 'NoSQL',
+    name: 'MongoDB',
     level: 'verygood',
     logo: '',
   },

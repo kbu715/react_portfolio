@@ -1,7 +1,7 @@
 import movie from '../projects_images/movieMain.png';
-import kanbanboard from '../projects_images/KanbanBoard.png';
-import mapProject from '../projects_images/mapProject.png';
-import movie_search from '../projects_images/movie_search.png';
+import twitter from '../projects_images/twitter.png';
+import firegram from '../projects_images/firegram.png';
+import arctic from '../projects_images/main.png';
 
 let projects_store = [
   {
@@ -11,22 +11,23 @@ let projects_store = [
     catagory: ['react.js'],
   },
   {
-    name: 'KanbanBoard',
-    image: kanbanboard,
-    url: 'https://jinwoo6531.github.io/KanbanBoard/',
+    name: 'Arctic Project',
+    image: arctic,
+    url: 'https://github.com/kbu715/arctic_project_test',
     catagory: ['react.js'],
   },
   {
-    name: 'NaverMap App',
-    image: mapProject,
-    url: 'https://jinwoo6531.github.io/mapTest/',
-    catagory: ['node.js', 'vanila'],
+    name: 'twitter',
+    image: twitter,
+    url: 'https://kbu715.github.io/2nd_project/',
+    catagory: ['react.js'],
   },
   {
-    name: 'Movie_search(Typescript version)',
-    image: movie_search,
-    url: 'https://jinwoo6531.github.io/typescript_movie_search/',
-    catagory: ['react.js', 'typescript'],
+    name: 'firegram',
+    image: firegram,
+    url: 'https://kbu715.github.io/firegram/',
+    catagory: ['react.js'],
   },
+
 ];
 export default projects_store;

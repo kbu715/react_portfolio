@@ -30,7 +30,7 @@ const ProjectCard = ({ image, name, url }) => {
                 animate='visible'
                 exit='exit'>
                 <figure className="project_wrapper">
-                    <a href={url}>
+                    <a href={url} target="_blank" rel="noopener noreferrer">
                         <img src={image} alt="project_image" className='project_image' />
                     </a>
                     <div className="project_name mt-2">{name}</div>
